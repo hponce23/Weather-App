@@ -53,51 +53,51 @@ let weather = {
       document.querySelector(".weather").classList.remove("loading");
 
       if(description == 'clear sky'){
-        des = 'clearsky.gif'
+        des = './images/clearsky.gif'
         if(night.includes(icon)){
-            des = 'clearskynight.gif'
+            des = './images/clearskynight.gif'
         }
         }  
         
         if(Clouds.includes(description)){
-            des = 'cloudy.gif'
+            des = './images/cloudy.gif'
             if(night.includes(icon)){
-                des = 'scatteredcloudsnight.gif'
+                des = './images/scatteredcloudsnight.gif'
             }
             }  
  
                 if(Rain.includes(description)){
-                    des = 'lightrain.gif'
+                    des = './images/lightrain.gif'
                     if(night.includes(icon)){
-                        des = 'rainnight.gif'
+                        des = './images/rainnight.gif'
                     }
                     }  
 
                     if(Thunderstorm.includes(description)){
-                        des = 'thunderstorm.gif'
+                        des = './images/thunderstorm.gif'
                         if(night.includes(icon)){
-                            des = 'thunderstormnight.gif'
+                            des = './images/thunderstormnight.gif'
                         }
                         }  
 
                         if(Snow.includes(description)){
-                            des = 'snow.gif'
+                            des = './images/snow.gif'
                             if(night.includes(icon)){
-                                des = 'snownight.gif'
+                                des = './images/snownight.gif'
                             }
                             }  
         
                             if(Drizzle.includes(description)){
-                                des = 'drizzle.gif'
+                                des = './images/drizzle.gif'
                                 if(night.includes(icon)){
-                                    des = 'drizzlenight.gif'
+                                    des = './images/drizzlenight.gif'
                                 }
                                 }  
 
                                 if(Atmosphere.includes(description)){
-                                    des = 'fog.gif'
+                                    des = './images/fog.gif'
                                     if(night.includes(icon)){
-                                        des = 'fognight.gif'
+                                        des = './images/fognight.gif'
                                     }
                                     }  
             
