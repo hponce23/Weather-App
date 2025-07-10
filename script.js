@@ -9,7 +9,7 @@ const Drizzle = ['light intensity drizzle','drizzle','heavy intensity drizzle','
 const Atmosphere = ['mist','smoke','haze','sand/dust whirls','fog','sand','dust','volcanic ash','squalls','tornado'];
 
 let weather = {
-    apiKey: '49cc8c821cd2aff9af04c9f98c36eb74',
+    apiKey: '0fda5c06aea77a3ba3ad06604e2be52e',
     fetchWeather: function (city) {
       fetch(
         "https://api.openweathermap.org/data/2.5/weather?q=" +
